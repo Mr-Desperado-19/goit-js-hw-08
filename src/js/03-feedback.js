@@ -27,7 +27,7 @@ form.addEventListener('submit', function(event) {
     event.preventDefault();
     localStorage.removeItem(STORAGE_KEY);
     form.reset();
-  
+      
     // Отримуємо поточні значення полів та виводимо їх у консоль
     const emailInput = form.elements.email;
     const messageInput = form.elements.message;
